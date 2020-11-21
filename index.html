@@ -12,7 +12,6 @@
     <div class="container">
       <h1 id="title">Survey Form</h1>
       <h6 id="description">Form used to collect user data.</h6>
-
       <form id="survey-form" action="#">
         <div class="form-group">
           <label for="exampleInputName">Name</label>
@@ -26,6 +25,43 @@
           <label for="exampleInputPhone">Age</label>
           <input type="number" class="form-control" id="number-label" min="12" max="100" placeholder="Enter Age">
         </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Select Years of Experience</label>
+          <select class="form-control" id="dropdown">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <label for="exampleInputName">Select Gender</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gender" id="exampleRadios1" value="option1" checked>
+          <label class="form-check-label" for="exampleRadios1">
+            Male
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gender" id="exampleRadios2" value="option2">
+          <label class="form-check-label" for="exampleRadios2">
+            Female
+          </label>
+        </div>
+        <label for="exampleInputName">Select Programming Languages</label>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="java" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+           Java
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="python" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+            Python
+          </label>
+        </div>
+        
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
     <script  src="js/index.js"></script>
